@@ -1,0 +1,13 @@
+[submodule "Hazel/vendor/spdlog"]
+	path = Hazel/vendor/spdlog
+	url = git@github.com:gabime/spdlog
+[submodule "Hazel/vendor/GLFW"]
+	path = Hazel/vendor/GLFW
+	url = git@github.com:MyWintersweet/glfw.git
+[submodule "Hazel/vendor/ImGui"]
+	path = Hazel/vendor/ImGui
+	url = git@github.com:MyWintersweet/imgui.git
+	branch = docking
+[submodule "Hazel/vendor/glm"]
+	path = Hazel/vendor/glm
+	url = git@github.com:g-truc/glm.git
