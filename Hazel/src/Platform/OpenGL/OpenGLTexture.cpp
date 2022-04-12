@@ -15,6 +15,7 @@ namespace Hazel {
 		stbi_uc* data = stbi_load(path.c_str(), &width, &height, &channels, 0);
 		HZ_CORE_ASSERT(data, "Failed to load image!");
 
+		// 图片宽度需要能够直接被4整除，不然需要使用glPixelStorei(GL_UNPACK_ALIGNMENT, 1)，会使程序变慢
 		m_Width = width;
 		m_Height = height;
 
